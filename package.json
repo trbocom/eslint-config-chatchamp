@@ -1,0 +1,8 @@
+{
+  "name": "eslint-config-chatchamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chatchamp/eslint-config-chatchamp.git",
+  "author": "chatchamp",
+  "license": "MIT"
+}

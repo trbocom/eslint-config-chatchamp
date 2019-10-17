@@ -1,4 +1,7 @@
 module.exports = {
+    extends: [
+        "eslint:recommended"
+    ],
     globals: {
         chai: true,
         chaiHttp: true,

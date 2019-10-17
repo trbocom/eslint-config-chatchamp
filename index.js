@@ -10,7 +10,10 @@ module.exports = {
         sinon: true
     },
     plugins: [
-        "babel"
+        "babel",
+        "flowtype",
+        "mocha",
+        "import"
     ],
     rules: {
         "mocha/no-exclusive-tests": "error",

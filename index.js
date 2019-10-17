@@ -9,6 +9,9 @@ module.exports = {
         nock: true,
         sinon: true
     },
+    plugins: [
+        "babel"
+    ],
     rules: {
         "mocha/no-exclusive-tests": "error",
         "flowtype/no-types-missing-file-annotation": 0,

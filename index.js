@@ -1,6 +1,9 @@
 module.exports = {
     extends: [
-        "eslint:recommended"
+        "eslint:recommended",
+        "standard",
+        "plugin:flowtype/recommended",
+        "plugin:promise/recommended"
     ],
     globals: {
         chai: true,
@@ -23,5 +26,10 @@ module.exports = {
         "no-console": "error",
         "require-await": "error",
         "import/no-default-export": "error"
+    },
+    settings: {
+        flowtype: {
+            onlyFilesWithFlowAnnotation: true
+        }
     }
 };

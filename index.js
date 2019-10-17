@@ -6,7 +6,6 @@ module.exports = {
         chai: true,
         chaiHttp: true,
         expect: true,
-        factory: true,
         nock: true,
         sinon: true
     },

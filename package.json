@@ -1,8 +1,21 @@
 {
-  "name": "eslint-config-chatchamp",
+  "name": "@chatchamp/eslint-config",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/chatchamp/eslint-config-chatchamp.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatchamp/eslint-config-chatchamp.git"
+  },
   "author": "chatchamp",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "This package provides chatchamp's .eslintrc as an extensible shared config.",
+  "bugs": {
+    "url": "https://github.com/chatchamp/eslint-config-chatchamp/issues"
+  },
+  "homepage": "https://github.com/chatchamp/eslint-config-chatchamp#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

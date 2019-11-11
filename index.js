@@ -26,7 +26,8 @@ module.exports = {
         "no-console": "error",
         "require-await": "error",
         "import/no-default-export": "error",
-        "import/newline-after-import": "error"
+        "import/newline-after-import": "error",
+        "lines-between-class-members": ["error", "always", { exceptAfterSingleLine: true }]
     },
     settings: {
         flowtype: {

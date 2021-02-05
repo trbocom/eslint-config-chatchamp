@@ -25,7 +25,7 @@ module.exports = {
         "strict": "error",
         "no-console": "error",
         "require-await": "error",
-        "import/order": "error",
+        "import/order": "warn",
         "import/no-default-export": "error",
         "import/newline-after-import": "error",
         "lines-between-class-members": ["error", "always", { exceptAfterSingleLine: true }],

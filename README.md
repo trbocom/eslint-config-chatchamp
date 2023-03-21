@@ -18,3 +18,13 @@ This package provides chatchamp's .eslintrc as an extensible shared config.
   ...
 }
 ```
+
+## Deployment
+
+1. version bump in `package.json`
+
+2.
+```bash
+  $ npm login
+  $ npm publish
+```
